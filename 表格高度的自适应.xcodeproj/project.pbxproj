@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD80FF2B1D8E874E007FF22F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF2A1D8E874E007FF22F /* main.m */; };
+		BD80FF2E1D8E874E007FF22F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF2D1D8E874E007FF22F /* AppDelegate.m */; };
+		BD80FF311D8E874F007FF22F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF301D8E874F007FF22F /* ViewController.m */; };
+		BD80FF341D8E874F007FF22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD80FF321D8E874F007FF22F /* Main.storyboard */; };
+		BD80FF361D8E874F007FF22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD80FF351D8E874F007FF22F /* Assets.xcassets */; };
+		BD80FF391D8E874F007FF22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD80FF371D8E874F007FF22F /* LaunchScreen.storyboard */; };
+		BD80FF441D8E874F007FF22F /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF431D8E874F007FF22F /* ________Tests.m */; };
+		BD80FF4F1D8E874F007FF22F /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF4E1D8E874F007FF22F /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD80FF401D8E874F007FF22F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD80FF1E1D8E874E007FF22F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD80FF251D8E874E007FF22F;
+			remoteInfo = "表格高度的自适应";
+		};
+		BD80FF4B1D8E874F007FF22F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD80FF1E1D8E874E007FF22F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD80FF251D8E874E007FF22F;
+			remoteInfo = "表格高度的自适应";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD80FF261D8E874E007FF22F /* 表格高度的自适应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表格高度的自适应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD80FF2A1D8E874E007FF22F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD80FF2C1D8E874E007FF22F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD80FF2D1D8E874E007FF22F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD80FF2F1D8E874F007FF22F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD80FF301D8E874F007FF22F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD80FF331D8E874F007FF22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD80FF351D8E874F007FF22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD80FF381D8E874F007FF22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD80FF3A1D8E874F007FF22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD80FF3F1D8E874F007FF22F /* 表格高度的自适应Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表格高度的自适应Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD80FF431D8E874F007FF22F /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		BD80FF451D8E874F007FF22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD80FF4A1D8E874F007FF22F /* 表格高度的自适应UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表格高度的自适应UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD80FF4E1D8E874F007FF22F /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		BD80FF501D8E874F007FF22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD80FF231D8E874E007FF22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD80FF3C1D8E874F007FF22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD80FF471D8E874F007FF22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD80FF1D1D8E874E007FF22F = {
+			isa = PBXGroup;
+			children = (
+				BD80FF281D8E874E007FF22F /* 表格高度的自适应 */,
+				BD80FF421D8E874F007FF22F /* 表格高度的自适应Tests */,
+				BD80FF4D1D8E874F007FF22F /* 表格高度的自适应UITests */,
+				BD80FF271D8E874E007FF22F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD80FF271D8E874E007FF22F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD80FF261D8E874E007FF22F /* 表格高度的自适应.app */,
+				BD80FF3F1D8E874F007FF22F /* 表格高度的自适应Tests.xctest */,
+				BD80FF4A1D8E874F007FF22F /* 表格高度的自适应UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD80FF281D8E874E007FF22F /* 表格高度的自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				BD80FF2C1D8E874E007FF22F /* AppDelegate.h */,
+				BD80FF2D1D8E874E007FF22F /* AppDelegate.m */,
+				BD80FF2F1D8E874F007FF22F /* ViewController.h */,
+				BD80FF301D8E874F007FF22F /* ViewController.m */,
+				BD80FF321D8E874F007FF22F /* Main.storyboard */,
+				BD80FF351D8E874F007FF22F /* Assets.xcassets */,
+				BD80FF371D8E874F007FF22F /* LaunchScreen.storyboard */,
+				BD80FF3A1D8E874F007FF22F /* Info.plist */,
+				BD80FF291D8E874E007FF22F /* Supporting Files */,
+			);
+			path = "表格高度的自适应";
+			sourceTree = "<group>";
+		};
+		BD80FF291D8E874E007FF22F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD80FF2A1D8E874E007FF22F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD80FF421D8E874F007FF22F /* 表格高度的自适应Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD80FF431D8E874F007FF22F /* ________Tests.m */,
+				BD80FF451D8E874F007FF22F /* Info.plist */,
+			);
+			path = "表格高度的自适应Tests";
+			sourceTree = "<group>";
+		};
+		BD80FF4D1D8E874F007FF22F /* 表格高度的自适应UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD80FF4E1D8E874F007FF22F /* ________UITests.m */,
+				BD80FF501D8E874F007FF22F /* Info.plist */,
+			);
+			path = "表格高度的自适应UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD80FF251D8E874E007FF22F /* 表格高度的自适应 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD80FF531D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应" */;
+			buildPhases = (
+				BD80FF221D8E874E007FF22F /* Sources */,
+				BD80FF231D8E874E007FF22F /* Frameworks */,
+				BD80FF241D8E874E007FF22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表格高度的自适应";
+			productName = "表格高度的自适应";
+			productReference = BD80FF261D8E874E007FF22F /* 表格高度的自适应.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD80FF3E1D8E874F007FF22F /* 表格高度的自适应Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD80FF561D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应Tests" */;
+			buildPhases = (
+				BD80FF3B1D8E874F007FF22F /* Sources */,
+				BD80FF3C1D8E874F007FF22F /* Frameworks */,
+				BD80FF3D1D8E874F007FF22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD80FF411D8E874F007FF22F /* PBXTargetDependency */,
+			);
+			name = "表格高度的自适应Tests";
+			productName = "表格高度的自适应Tests";
+			productReference = BD80FF3F1D8E874F007FF22F /* 表格高度的自适应Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD80FF491D8E874F007FF22F /* 表格高度的自适应UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD80FF591D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应UITests" */;
+			buildPhases = (
+				BD80FF461D8E874F007FF22F /* Sources */,
+				BD80FF471D8E874F007FF22F /* Frameworks */,
+				BD80FF481D8E874F007FF22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD80FF4C1D8E874F007FF22F /* PBXTargetDependency */,
+			);
+			name = "表格高度的自适应UITests";
+			productName = "表格高度的自适应UITests";
+			productReference = BD80FF4A1D8E874F007FF22F /* 表格高度的自适应UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD80FF1E1D8E874E007FF22F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "上海均衡";
+				TargetAttributes = {
+					BD80FF251D8E874E007FF22F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BD80FF3E1D8E874F007FF22F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD80FF251D8E874E007FF22F;
+					};
+					BD80FF491D8E874F007FF22F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD80FF251D8E874E007FF22F;
+					};
+				};
+			};
+			buildConfigurationList = BD80FF211D8E874E007FF22F /* Build configuration list for PBXProject "表格高度的自适应" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD80FF1D1D8E874E007FF22F;
+			productRefGroup = BD80FF271D8E874E007FF22F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD80FF251D8E874E007FF22F /* 表格高度的自适应 */,
+				BD80FF3E1D8E874F007FF22F /* 表格高度的自适应Tests */,
+				BD80FF491D8E874F007FF22F /* 表格高度的自适应UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD80FF241D8E874E007FF22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD80FF391D8E874F007FF22F /* LaunchScreen.storyboard in Resources */,
+				BD80FF361D8E874F007FF22F /* Assets.xcassets in Resources */,
+				BD80FF341D8E874F007FF22F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD80FF3D1D8E874F007FF22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD80FF481D8E874F007FF22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD80FF221D8E874E007FF22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD80FF311D8E874F007FF22F /* ViewController.m in Sources */,
+				BD80FF2E1D8E874E007FF22F /* AppDelegate.m in Sources */,
+				BD80FF2B1D8E874E007FF22F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD80FF3B1D8E874F007FF22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD80FF441D8E874F007FF22F /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD80FF461D8E874F007FF22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD80FF4F1D8E874F007FF22F /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD80FF411D8E874F007FF22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD80FF251D8E874E007FF22F /* 表格高度的自适应 */;
+			targetProxy = BD80FF401D8E874F007FF22F /* PBXContainerItemProxy */;
+		};
+		BD80FF4C1D8E874F007FF22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD80FF251D8E874E007FF22F /* 表格高度的自适应 */;
+			targetProxy = BD80FF4B1D8E874F007FF22F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD80FF321D8E874F007FF22F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD80FF331D8E874F007FF22F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD80FF371D8E874F007FF22F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD80FF381D8E874F007FF22F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD80FF511D8E874F007FF22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD80FF521D8E874F007FF22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD80FF541D8E874F007FF22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表格高度的自适应/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD80FF551D8E874F007FF22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表格高度的自适应/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD80FF571D8E874F007FF22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "表格高度的自适应Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表格高度的自适应.app/表格高度的自适应";
+			};
+			name = Debug;
+		};
+		BD80FF581D8E874F007FF22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "表格高度的自适应Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表格高度的自适应.app/表格高度的自适应";
+			};
+			name = Release;
+		};
+		BD80FF5A1D8E874F007FF22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "表格高度的自适应UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "表格高度的自适应";
+			};
+			name = Debug;
+		};
+		BD80FF5B1D8E874F007FF22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "表格高度的自适应UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "表格高度的自适应";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD80FF211D8E874E007FF22F /* Build configuration list for PBXProject "表格高度的自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD80FF511D8E874F007FF22F /* Debug */,
+				BD80FF521D8E874F007FF22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD80FF531D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD80FF541D8E874F007FF22F /* Debug */,
+				BD80FF551D8E874F007FF22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD80FF561D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD80FF571D8E874F007FF22F /* Debug */,
+				BD80FF581D8E874F007FF22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD80FF591D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD80FF5A1D8E874F007FF22F /* Debug */,
+				BD80FF5B1D8E874F007FF22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD80FF1E1D8E874E007FF22F /* Project object */;
+}
