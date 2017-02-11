@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EB24C141D8EC7310016585E /* XMGStatusesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB24C131D8EC7310016585E /* XMGStatusesViewController.m */; };
 		BD80FF2B1D8E874E007FF22F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF2A1D8E874E007FF22F /* main.m */; };
 		BD80FF2E1D8E874E007FF22F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF2D1D8E874E007FF22F /* AppDelegate.m */; };
 		BD80FF311D8E874F007FF22F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF301D8E874F007FF22F /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		BD80FF391D8E874F007FF22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD80FF371D8E874F007FF22F /* LaunchScreen.storyboard */; };
 		BD80FF441D8E874F007FF22F /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF431D8E874F007FF22F /* ________Tests.m */; };
 		BD80FF4F1D8E874F007FF22F /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF4E1D8E874F007FF22F /* ________UITests.m */; };
+		BD80FF5F1D8E87A0007FF22F /* weiBoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF5D1D8E87A0007FF22F /* weiBoTableViewCell.m */; };
+		BD80FF601D8E87A0007FF22F /* weiBoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80FF5E1D8E87A0007FF22F /* weiBoTableViewCell.xib */; };
+		BD80FF621D8E9145007FF22F /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD80FF611D8E9145007FF22F /* statuses.plist */; };
+		BD80FF651D8E91FA007FF22F /* dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80FF641D8E91FA007FF22F /* dataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7EB24C121D8EC7310016585E /* XMGStatusesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGStatusesViewController.h; sourceTree = "<group>"; };
+		7EB24C131D8EC7310016585E /* XMGStatusesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGStatusesViewController.m; sourceTree = "<group>"; };
 		BD80FF261D8E874E007FF22F /* 表格高度的自适应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表格高度的自适应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD80FF2A1D8E874E007FF22F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD80FF2C1D8E874E007FF22F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,12 @@
 		BD80FF4A1D8E874F007FF22F /* 表格高度的自适应UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表格高度的自适应UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD80FF4E1D8E874F007FF22F /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		BD80FF501D8E874F007FF22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD80FF5C1D8E87A0007FF22F /* weiBoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weiBoTableViewCell.h; sourceTree = "<group>"; };
+		BD80FF5D1D8E87A0007FF22F /* weiBoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weiBoTableViewCell.m; sourceTree = "<group>"; };
+		BD80FF5E1D8E87A0007FF22F /* weiBoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weiBoTableViewCell.xib; sourceTree = "<group>"; };
+		BD80FF611D8E9145007FF22F /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		BD80FF631D8E91FA007FF22F /* dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModel.h; sourceTree = "<group>"; };
+		BD80FF641D8E91FA007FF22F /* dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +122,14 @@
 				BD80FF351D8E874F007FF22F /* Assets.xcassets */,
 				BD80FF371D8E874F007FF22F /* LaunchScreen.storyboard */,
 				BD80FF3A1D8E874F007FF22F /* Info.plist */,
+				7EB24C121D8EC7310016585E /* XMGStatusesViewController.h */,
+				7EB24C131D8EC7310016585E /* XMGStatusesViewController.m */,
+				BD80FF5C1D8E87A0007FF22F /* weiBoTableViewCell.h */,
+				BD80FF5D1D8E87A0007FF22F /* weiBoTableViewCell.m */,
+				BD80FF5E1D8E87A0007FF22F /* weiBoTableViewCell.xib */,
+				BD80FF631D8E91FA007FF22F /* dataModel.h */,
+				BD80FF641D8E91FA007FF22F /* dataModel.m */,
+				BD80FF611D8E9145007FF22F /* statuses.plist */,
 				BD80FF291D8E874E007FF22F /* Supporting Files */,
 			);
 			path = "表格高度的自适应";
@@ -246,7 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD80FF601D8E87A0007FF22F /* weiBoTableViewCell.xib in Resources */,
 				BD80FF391D8E874F007FF22F /* LaunchScreen.storyboard in Resources */,
+				BD80FF621D8E9145007FF22F /* statuses.plist in Resources */,
 				BD80FF361D8E874F007FF22F /* Assets.xcassets in Resources */,
 				BD80FF341D8E874F007FF22F /* Main.storyboard in Resources */,
 			);
@@ -273,9 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD80FF5F1D8E87A0007FF22F /* weiBoTableViewCell.m in Sources */,
+				BD80FF651D8E91FA007FF22F /* dataModel.m in Sources */,
 				BD80FF311D8E874F007FF22F /* ViewController.m in Sources */,
 				BD80FF2E1D8E874E007FF22F /* AppDelegate.m in Sources */,
 				BD80FF2B1D8E874E007FF22F /* main.m in Sources */,
+				7EB24C141D8EC7310016585E /* XMGStatusesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +533,7 @@
 				BD80FF551D8E874F007FF22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD80FF561D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +542,7 @@
 				BD80FF581D8E874F007FF22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD80FF591D8E874F007FF22F /* Build configuration list for PBXNativeTarget "表格高度的自适应UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +551,7 @@
 				BD80FF5B1D8E874F007FF22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
